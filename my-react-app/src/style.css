@@ -1,0 +1,279 @@
+/* src/styles.css */
+
+/* General reset and styles */
+body {
+    margin: 0;
+    font-family: 'Roboto', Arial, sans-serif;
+    background: linear-gradient(135deg, #121212, #1f1f1f);
+    color: #e0e0e0;
+  }
+  
+  /* Centering and container styles */
+  .container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background: linear-gradient(145deg, #1e1e1e, #292929);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.6), inset 0px 0px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 12px;
+  }
+  
+  /* Section styles */
+  .section {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.03);
+    box-shadow: inset 0px 0px 8px rgba(255, 255, 255, 0.05);
+    transition: transform 0.3s ease, background 0.3s ease;
+  }
+  
+  .section:hover {
+    transform: scale(1.02);
+    background: rgba(255, 255, 255, 0.06);
+  }
+  
+  /* Headings with glowing effect */
+  .section h2 {
+    font-size: 1.75rem;
+    color: #4db8ff;
+    text-shadow: 0px 0px 10px #4db8ff, 0px 0px 20px #0073e6;
+    margin-bottom: 1rem;
+  }
+  
+  /* Paragraphs and text */
+  .section p,
+  .section ul {
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  
+  .section ul {
+    list-style-type: circle;
+    margin-left: 2rem;
+  }
+  
+  .section ul li {
+    margin-bottom: 0.5rem;
+    color: #b3e5fc;
+  }
+  
+  /* Footer styles */
+  .footer {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    color: #666;
+  }
+
+  button {
+    transition: transform 0.2s ease, opacity 0.3s ease;
+  }
+  button:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+  }
+  
+  /* Profile Card */
+  .profile-card {
+    background: linear-gradient(145deg, #2a2a2a, #1e1e1e);
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.6), inset 0px 0px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  .profile-card p {
+    font-size: 1.1rem;
+    margin: 0.5rem 0;
+  }
+  
+  .profile-card strong {
+    color: #4db8ff;
+  }
+  
+  /* Item List */
+  ul {
+    list-style-type: disc;
+    margin-left: 2rem;
+  }
+  
+  ul li {
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+    color: #b3e5fc;
+  }
+  
+  /* Separator between sections */
+hr.section-separator {
+    margin: 4rem 0;
+    border: 0;
+    height: 2px;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.1));
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Toggle Button styles */
+  .toggle-button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #0073e6;
+    color: white;
+    transition: background-color 0.3s ease;
+  }
+  
+  .toggle-button:hover {
+    background-color: #005bb5;
+  }
+  
+  /* Counter Component */
+  .counter {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .counter button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .counter span {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #b3e5fc;
+  }
+  
+  /* Hover Color Change */
+  .hover-box {
+    width: 70%;
+    padding: 2rem;
+    text-align: center;
+    background-color: #292929;
+    border-radius: 8px;
+    color: #b3e5fc;
+    transition: background-color 0.3s ease;
+  }
+  
+  .hover-box:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  /* Form Styling */
+  .input-field {
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 2px solid #0073e6;
+    background: #1f1f1f;
+    color: #e0e0e0;
+  }
+  
+  .input-field:focus {
+    outline: none;
+    border-color: #4CAF50;
+  }
+  
+  .submit-button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1rem;
+  }
+  
+  .submit-button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Dropdown Menu */
+  .dropdown-button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #1E88E5;
+    color: white;
+  }
+  
+  .dropdown-button:hover {
+    background-color: #1565C0;
+  }
+  
+  .dropdown-options {
+    margin-top: 1rem;
+    padding: 10px;
+    background-color: #292929;
+    border-radius: 8px;
+    list-style-type: none;
+    color: #b3e5fc;
+  }
+  
+  .dropdown-options li {
+    padding: 5px 0;
+  }
+  
+  .dropdown-options li:hover {
+    background-color: #4CAF50;
+  }
+
+  /* Container to center the content */
+.container {
+    padding: 20px;
+    background-color: #121212;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    max-width: 900px;
+    margin: auto;
+  }
+  
+  /* Section Styles */
+  .section {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    color: #4CAF50;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  p,
+  ul,
+  span {
+    font-size: 1rem;
+    color: #bbb;
+  }
+  
+  /* Styling for button components */
+  button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+
+  
+  
