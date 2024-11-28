@@ -1,0 +1,31 @@
+/* src/components/styles/ComponentCard.css */
+.component-card {
+    background-color: #2c3e50;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    padding: 20px;
+    margin: 15px;
+    color: #ecf0f1;
+    transition: all 0.3s ease;
+    border: 1px solid #34495e;
+}
+
+.component-card:hover {
+    transform: scale(1.025);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.component-card h2 {
+    color: #3498db;
+    margin-bottom: 15px;
+    font-size: 1.5em;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+}
+
+.component-card .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
