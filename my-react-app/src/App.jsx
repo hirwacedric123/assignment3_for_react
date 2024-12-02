@@ -27,6 +27,12 @@ import CounterWithMemoList from "./components/CounterWithMemoList";
 import HeavyCalcWithMemo from "./components/HeavyCalcWithMemo";
 import TodoAppWithMemo from "./components/TodoAppWithMemo";
 import LiveTimeUpdates from "./components/LiveTimeUpdates";
+import LecturerRegistrationForm from './components/LecturerRegistrationForm';
+import StudentRegistrationForm from './components/StudentRegistrationForm';
+import DriverRegistrationForm from './components/DriverRegistrationForm';
+import BookRegistrationForm from './components/BookRegistrationForm';
+import ModuleRegistrationForm from './components/ModuleRegistrationForm';
+
 function App() {
     return (
         <Router>
@@ -76,6 +82,11 @@ function App() {
                                     <HeavyCalcWithMemo />
                                     <TodoAppWithMemo />
                                     <LiveTimeUpdates />
+                                    <LecturerRegistrationForm />
+                                    <StudentRegistrationForm />
+                                    <DriverRegistrationForm />
+                                    <BookRegistrationForm />
+                                    <ModuleRegistrationForm />
                                 </div>
                                 <div style={{ textAlign: "center", padding: "20px" }}>
 
