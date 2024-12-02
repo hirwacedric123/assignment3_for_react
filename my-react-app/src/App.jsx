@@ -75,7 +75,6 @@ function App() {
                                     <FormWithValidation />
                                     <MultiStepForm />
                                     <CheckboxForm />
-                                    <h1>React.memo Examples</h1>
                                     <ParentWithMemo />
 
                                     <CounterWithMemoList />

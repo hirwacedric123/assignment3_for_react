@@ -25,15 +25,24 @@ function ModuleRegistrationForm() {
     };
 
     return (
-        <form onSubmit={handleSubmit}>
+        <div className="component-card">
+          <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
             <h3>Module Registration</h3>
-            <input name="name" placeholder="Module Name" value={formData.name} onChange={handleChange} />
-            <input name="code" placeholder="Module Code" value={formData.code} onChange={handleChange} />
-            <textarea name="description" placeholder="Description" value={formData.description} onChange={handleChange}></textarea>
-            <input name="credits" placeholder="Credits" value={formData.credits} onChange={handleChange} />
+            <input name="name" placeholder="Module Name" value={formData.name} onChange={handleChange} style={{ padding: '10px', borderRadius: '5px' }} />
+            <input name="code" placeholder="Module Code" value={formData.code} onChange={handleChange} style={{ padding: '10px', borderRadius: '5px' }} />
+            <textarea name="description" placeholder="Description" value={formData.description} onChange={handleChange} style={{ padding: '30px', borderRadius: '5px' }}> </textarea>
+            <input name="credits" placeholder="Credits" value={formData.credits} onChange={handleChange} style={{ padding: '10px', borderRadius: '5px' }} />
             {errors.credits && <p>{errors.credits}</p>}
-            <button type="submit">Register</button>
+            <button 
+                    type="submit" 
+                    style={{ padding: '10px', backgroundColor: '#3498db', color: '#fff', border: 'none', borderRadius: '5px' }}
+                >
+                   Register
+            </button>
         </form>
+
+        </div>
+
     );
 }
 

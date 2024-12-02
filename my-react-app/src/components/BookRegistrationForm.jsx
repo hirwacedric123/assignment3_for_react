@@ -25,15 +25,21 @@ function BookRegistrationForm() {
     };
 
     return (
-        <form onSubmit={handleSubmit}>
-            <h3>Book Registration</h3>
-            <input name="title" placeholder="Book Title" value={formData.title} onChange={handleChange} />
-            <input name="author" placeholder="Author" value={formData.author} onChange={handleChange} />
-            <input name="isbn" placeholder="ISBN" value={formData.isbn} onChange={handleChange} />
-            <input name="year" placeholder="Published Year" value={formData.year} onChange={handleChange} />
-            {errors.year && <p>{errors.year}</p>}
-            <button type="submit">Register</button>
-        </form>
+        <div className="component-card">        <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
+        <h3>Book Registration</h3>
+        <input name="title" placeholder="Book Title" value={formData.title} onChange={handleChange} style={{ padding: '10px', borderRadius: '5px' }}/>
+        <input name="author" placeholder="Author" value={formData.author} onChange={handleChange} style={{ padding: '10px', borderRadius: '5px' }} />
+        <input name="isbn" placeholder="ISBN" value={formData.isbn} onChange={handleChange} style={{ padding: '10px', borderRadius: '5px' }} />
+        <input name="year" placeholder="Published Year" value={formData.year} onChange={handleChange} style={{ padding: '10px', borderRadius: '5px' }} />
+        {errors.year && <p>{errors.year}</p>}
+        <button 
+                type="submit" 
+                style={{ padding: '10px', backgroundColor: '#3498db', color: '#fff', border: 'none', borderRadius: '5px' }}
+            >
+                Register
+        </button>
+    </form></div>
+
     );
 }
 
