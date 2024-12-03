@@ -8,7 +8,7 @@ function HoverColorChange() {
         const letters = '0123456789ABCDEF';
         let color = '#';
         for (let i = 0; i < 6; i++) {
-            color += letters[Math.floor(Math.random() *4)];
+            color += letters[Math.floor(Math.random() *15)];
         }
         return color;
     };
