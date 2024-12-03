@@ -5,8 +5,8 @@ import './styles/ComponentCard.css';
 function WelcomeMessage() {
   return (
     <div className="card welcome-message">
-      <h2>Welcome to My React Assignment!</h2>
-      <p>Explore the various components I've created.</p>
+      <h2>Welcome to Our React Assignment!</h2>
+      <p>Explore the various components We've created.</p>
     </div>
   );
 }

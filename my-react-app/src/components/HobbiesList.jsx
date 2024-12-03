@@ -2,7 +2,7 @@ import React from 'react';
 import './styles/ComponentCard.css';
 
 function HobbiesList() {
-    const hobbies = ['Coding', 'Reading', 'Gaming', 'Photography', 'Traveling'];
+    const hobbies = ['Coding', 'Reading', 'Playing', 'Singing', 'Traveling'];
 
     return (
         <div className="component-card">
