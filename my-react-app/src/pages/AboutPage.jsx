@@ -51,21 +51,21 @@ function AboutPage() {
 
     const studentProfiles = [
         {
-            name: 'Alice Johnson',
-            studentId: 'S1234',
+            name: 'HIRWA CYUZUZO Cedric',
+            studentId: '223013417',
             profession: 'Computer Science Student',
-            skills: 'JavaScript, React, Python',
+            skills: 'JavaScript, React, Python, Django',
         },
         {
-            name: 'Bob Smith',
-            studentId: 'S5678',
-            profession: 'Software Engineering Student',
-            skills: 'Java, Spring Boot, SQL',
+            name: 'Byiringiro Olivier',
+            studentId: '223008225',
+            profession: 'Computer Science Student',
+            skills: 'Javascript, Java, Spring Boot, SQL',
         },
         {
-            name: 'Clara Davis',
-            studentId: 'S91011',
-            profession: 'Data Science Student',
+            name: 'IZERE DUKUZUMUKIZA Sabin',
+            studentId: '223009179',
+            profession: 'Computer Science Student',
             skills: 'Python, Machine Learning, R',
         },
     ];
