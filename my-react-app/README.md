@@ -53,7 +53,7 @@ This project includes a wide variety of components that serve different purposes
 - **Contact Page (`/contact`)**: Contains contact information for the developers.
 - **Product Page (`/product/:productId`)**: Displays detailed information for a product, based on the product ID passed in the URL.
 - **Blog Page (`/blog`)**: Displays a list of blog posts.
-- **Blog Post Page (`/blog/post/:postId`)**: Displays the content of a specific blog post.
+- **Blog Post Page (`/blog/post/:postId`)**: Displays the content of a specific blog post. 
 - **Not Found Page (`/*`)**: A catch-all route for invalid or non-existent URLs.
 
 ## App Structure

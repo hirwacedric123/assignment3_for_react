@@ -40,7 +40,7 @@ function App() {
                 {/* Navbar always visible */}
                 <Navbar />
                 <h1 style={{ textAlign: 'center', color: '#3498db', marginBottom: '30px' }}>
-                    React Assignment Components
+                    This is React
                 </h1>
 
                 {/* Routes for different pages */}
