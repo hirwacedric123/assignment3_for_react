@@ -27,10 +27,10 @@ function BookRegistrationForm() {
     return (
         <div className="component-card">        <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
         <h3>Book Registration</h3>
-        <input name="title" placeholder="Book Title" value={formData.title} onChange={handleChange} style={{ padding: '10px', borderRadius: '5px' }}/>
-        <input name="author" placeholder="Author" value={formData.author} onChange={handleChange} style={{ padding: '10px', borderRadius: '5px' }} />
-        <input name="isbn" placeholder="ISBN" value={formData.isbn} onChange={handleChange} style={{ padding: '10px', borderRadius: '5px' }} />
-        <input name="year" placeholder="Published Year" value={formData.year} onChange={handleChange} style={{ padding: '10px', borderRadius: '5px' }} />
+        <input required name="title" placeholder="Book Title" value={formData.title} onChange={handleChange} style={{ padding: '10px', borderRadius: '5px' }}/>
+        <input required name="author" placeholder="Author" value={formData.author} onChange={handleChange} style={{ padding: '10px', borderRadius: '5px' }} />
+        <input required name="isbn" placeholder="ISBN" value={formData.isbn} onChange={handleChange} style={{ padding: '10px', borderRadius: '5px' }} />
+        <input required name="year" placeholder="Published Year" value={formData.year} onChange={handleChange} style={{ padding: '10px', borderRadius: '5px' }} />
         {errors.year && <p style={{color:'red'}}>{errors.year}</p>}
         <button 
                 type="submit" 

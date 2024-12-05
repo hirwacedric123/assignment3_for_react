@@ -30,11 +30,13 @@ function FormWithValidation() {
                     value={email} 
                     onChange={(e) => setEmail(e.target.value)} 
                     style={{ padding: '10px', borderRadius: '5px' }}
+                    required
                 />
                 <input 
                     type="password" 
                     placeholder="Password" 
                     value={password} 
+                    required
                     onChange={(e) => setPassword(e.target.value)} 
                     style={{ padding: '10px', borderRadius: '5px' }}
                 />

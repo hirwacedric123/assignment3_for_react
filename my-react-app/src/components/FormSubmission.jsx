@@ -28,6 +28,7 @@ function FormSubmission() {
                             backgroundColor: '#2c3e50',
                             color: '#ecf0f1'
                         }}
+                        required
                     />
                     <button 
                         type="submit"
