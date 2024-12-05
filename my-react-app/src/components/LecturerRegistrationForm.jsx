@@ -30,7 +30,7 @@ function LecturerRegistrationForm() {
             
         <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
             <h3>Lecturer Registration</h3>
-            <input name="name" placeholder="Name" value={formData.name} onChange={handleChange} style={{ padding: '10px', borderRadius: '5px' }}/>
+            <input name="name" required placeholder="Name" value={formData.name} onChange={handleChange} style={{ padding: '10px', borderRadius: '5px' }}/>
             <input name="email" placeholder="Email" value={formData.email} onChange={handleChange} style={{ padding: '10px', borderRadius: '5px' }}/>
             {errors.email && <p style={{color:'red'}}>{errors.email}</p>}
             <input name="subject" placeholder="Subject" value={formData.subject} onChange={handleChange} style={{ padding: '10px', borderRadius: '5px' }} />

@@ -2,7 +2,7 @@ import React, { useState, useEffect, memo } from "react";
 
 const StaticUI = memo(() => {
     console.log("StaticUI rendered");
-    return <h1>25. Static UI Part</h1>;
+    return <h1>25. Live Time Update</h1>;
 });
 
 function LiveTimeUpdates() {

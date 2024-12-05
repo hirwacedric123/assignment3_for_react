@@ -29,7 +29,7 @@ function StudentRegistrationForm() {
             <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
             <h3>Student Registration</h3>
             <input name="firstName" placeholder="First Name" value={formData.firstName} onChange={handleChange} style={{ padding: '10px', borderRadius: '5px' }}/>
-            <input name="lastName" placeholder="Last Name" value={formData.lastName} onChange={handleChange} style={{ padding: '10px', borderRadius: '5px' }} />
+            <input name="lastName" placeholder="Last Name" value={formData.lastName} onChange={handleChange} required style={{ padding: '10px', borderRadius: '5px' }} />
             <input name="email" placeholder="Email" value={formData.email} onChange={handleChange} style={{ padding: '10px', borderRadius: '5px' }}/>
             <input name="studentId" placeholder="Student ID" value={formData.studentId} onChange={handleChange} style={{ padding: '10px', borderRadius: '5px' }} />
             {errors.studentId && <p>{errors.studentId}</p>}
