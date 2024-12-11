@@ -28,7 +28,7 @@ import HeavyCalcWithMemo from "./components/23.HeavyCalcWithMemo";
 import TodoAppWithMemo from "./components/24.TodoAppWithMemo";
 import LiveTimeUpdates from "./components/25.LiveTimeUpdates";
 import LecturerRegistrationForm from './components/26.LecturerRegistrationForm';
-import StudentRegistrationForm from './components/StudentRegistrationForm';
+import StudentRegistrationForm from './components/27.StudentRegistrationForm';
 import DriverRegistrationForm from './components/DriverRegistrationForm';
 import BookRegistrationForm from './components/BookRegistrationForm';
 import ModuleRegistrationForm from './components/ModuleRegistrationForm';
