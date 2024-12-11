@@ -22,21 +22,14 @@ function TodoAppWithMemo() {
 
     return (
         <div className="component-card">
-            <h1>24. Todo List</h1>
+            <h2>24. Todo List</h2>
             <form action="">
             <input
                 type="text"
                 value={input}
                 onChange={(e) => setInput(e.target.value)}
                 placeholder="Add a todo" 
-                
-                style={{
-                    padding: '10px',
-                    borderRadius: '5px',
-                    border: '1px solid #fefefe',
-                    backgroundColor: '#2c3e50',
-                    color: '#ecf0f1'
-                }}
+                style={{ padding: '10px', borderRadius: '5px' }}
                 required
             />
             <button onClick={addTodo}>Add Todo</button>

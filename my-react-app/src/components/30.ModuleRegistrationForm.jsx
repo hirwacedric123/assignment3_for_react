@@ -27,7 +27,7 @@ function ModuleRegistrationForm() {
     return (
         <div className="component-card">
           <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
-            <h3>Module Registration</h3>
+            <h2>30. Module Registration</h2>
             <input required name="name" placeholder="Module Name" value={formData.name} onChange={handleChange} style={{ padding: '10px', borderRadius: '5px' }} />
             <input required name="code" placeholder="Module Code" value={formData.code} onChange={handleChange} style={{ padding: '10px', borderRadius: '5px' }} />
             <textarea required name="description" placeholder="Description" value={formData.description} onChange={handleChange} style={{ padding: '30px', borderRadius: '5px' }}> </textarea>

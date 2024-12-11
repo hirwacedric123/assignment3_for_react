@@ -2,7 +2,7 @@ import React, { useState, useEffect, memo } from "react";
 
 const StaticUI = memo(() => {
     console.log("StaticUI rendered");
-    return <h1>25. Live Time Update</h1>;
+    return <h2 >25. Live Time Update</h2>;
 });
 
 function LiveTimeUpdates() {
@@ -18,7 +18,7 @@ function LiveTimeUpdates() {
     return (
         <div className="component-card">
             <StaticUI />
-            <h2>Current Time: {time}</h2>
+            <h2 style={{color:"white", marginTop:"70px"}}>Current Time: {time}</h2>
         </div>
     );
 }

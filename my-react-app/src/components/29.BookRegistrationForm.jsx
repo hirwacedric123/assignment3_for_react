@@ -26,7 +26,7 @@ function BookRegistrationForm() {
 
     return (
         <div className="component-card">        <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
-        <h3>Book Registration</h3>
+        <h2>29.Book Registration</h2>
         <input required name="title" placeholder="Book Title" value={formData.title} onChange={handleChange} style={{ padding: '10px', borderRadius: '5px' }}/>
         <input required name="author" placeholder="Author" value={formData.author} onChange={handleChange} style={{ padding: '10px', borderRadius: '5px' }} />
         <input required name="isbn" placeholder="ISBN" value={formData.isbn} onChange={handleChange} style={{ padding: '10px', borderRadius: '5px' }} />

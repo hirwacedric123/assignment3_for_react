@@ -17,7 +17,7 @@ function CounterWithMemoList() {
 
     return (
         <div className="component-card">
-            <h1>22. Counter</h1>
+            <h2>22. Counter</h2>
             <p>Count: {count}</p>
             <button onClick={() => setCount(count + 1)}>Increment Count</button>
             <ItemList items={items} />
