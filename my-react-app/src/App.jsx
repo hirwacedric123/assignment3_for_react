@@ -15,7 +15,7 @@ import FormWithValidation from './components/13.FormWithValidation';
 import MultiStepForm from './components/14.MultiStepForm';
 import CheckboxForm from './components/15.CheckboxForm';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Navbar from './components/Navbar';
+import Navbar from './components/16.Navbar';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
 import ProductPage from './pages/ProductPage';
