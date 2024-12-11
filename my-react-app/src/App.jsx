@@ -25,7 +25,7 @@ import NotFoundPage from './pages/NotFoundPage';
 import ParentWithMemo from "./components/21.ParentWithMemo";
 import CounterWithMemoList from "./components/22.CounterWithMemoList";
 import HeavyCalcWithMemo from "./components/23.HeavyCalcWithMemo";
-import TodoAppWithMemo from "./components/TodoAppWithMemo";
+import TodoAppWithMemo from "./components/24.TodoAppWithMemo";
 import LiveTimeUpdates from "./components/LiveTimeUpdates";
 import LecturerRegistrationForm from './components/LecturerRegistrationForm';
 import StudentRegistrationForm from './components/StudentRegistrationForm';
