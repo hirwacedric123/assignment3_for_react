@@ -274,6 +274,37 @@ hr.section-separator {
     background-color: #45a049;
   }
   
+/* Style the label to create a modern look */
+label {
+  display: flex;
+  align-items: center;
+  font-size: 16px; /* Font size for the text */
+  color: #ecf0f1; /* Text color */
+  cursor: pointer; /* Change cursor to pointer for interactivity */
+  margin-bottom: 10px; /* Add spacing between checkboxes */
+  transition: all 0.3s ease; /* Smooth transition */
+}
+
+/* Style the checkbox */
+input[type="checkbox"] {
+  width: 20px; /* Increase checkbox size */
+  height: 20px; /* Increase checkbox size */
+  margin-right: 10px; /* Space between checkbox and label text */
+  accent-color: #2e877d; /* Change the color of the checkbox */
+  transition: all 0.3s ease; /* Smooth transition */
+  cursor: pointer; /* Make checkbox clickable */
+}
+
+/* Style the checkbox on hover */
+input[type="checkbox"]:hover {
+  transform: scale(1.1); /* Slightly increase size on hover */
+}
+
+/* Style the checkbox when checked */
+input[type="checkbox"]:checked {
+  background-color: #2ecc71; /* Green background when checked */
+  border-color: #2ecc71; /* Border color when checked */
+}
 
   
   
