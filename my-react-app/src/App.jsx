@@ -29,7 +29,7 @@ import TodoAppWithMemo from "./components/24.TodoAppWithMemo";
 import LiveTimeUpdates from "./components/25.LiveTimeUpdates";
 import LecturerRegistrationForm from './components/26.LecturerRegistrationForm';
 import StudentRegistrationForm from './components/27.StudentRegistrationForm';
-import DriverRegistrationForm from './components/DriverRegistrationForm';
+import DriverRegistrationForm from './components/28.DriverRegistrationForm';
 import BookRegistrationForm from './components/BookRegistrationForm';
 import ModuleRegistrationForm from './components/ModuleRegistrationForm';
 
