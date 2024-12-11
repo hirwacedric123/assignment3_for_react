@@ -1,5 +1,5 @@
 import React from 'react';
-import WelcomeMessage from './components/WelcomeMessage';
+import WelcomeMessage from './components/1.WelcomeMessage';
 import CurrentDate from './components/currentDate';
 import HobbiesList from './components/HobbiesList';
 import CustomButton from './components/CustomButton';
