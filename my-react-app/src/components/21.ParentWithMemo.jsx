@@ -10,7 +10,7 @@ function ParentWithMemo() {
 
     return (
         <div className="component-card">
-            <h1>21. Parent Component</h1>
+            <h2>21. Parent Component</h2>
             <ChildComponent message="This prop is memoized!" />
             <p>Count: {count}</p>
             <button onClick={() => setCount(count + 1)}>Increment Count</button>

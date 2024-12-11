@@ -125,3 +125,50 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     filter: invert(1); /* Invert color for better visibility */
     cursor: pointer; /* Change cursor for interactivity */
 }
+textarea {
+    padding: 15px; /* Comfortable padding for readability */
+    border-radius: 8px; /* Rounded corners */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Subtle border */
+    background-color: rgba(44, 62, 80, 0.4); /* Semi-transparent background */
+    color: #ecf0f1; /* Text color */
+    font-size: 16px; /* Legible font size */
+    width: 78%; /* Responsive width */
+    height: 150px; /* Set a default height for the textarea */
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.2); /* Inset shadow for depth */
+    resize: vertical; /* Allow resizing vertically */
+    outline: none; /* Remove default outline */
+    transition: all 0.3s ease; /* Smooth interactions */
+}
+
+textarea:focus {
+    border: 1px solid rgba(255, 255, 255, 0.6); /* Highlight border on focus */
+    background-color: rgba(44, 62, 80, 0.6); /* Slightly brighter background on focus */
+}
+
+textarea:hover {
+    background-color: rgba(44, 62, 80, 0.5); /* Slightly dimmer background on hover */
+}
+input[type="email"],
+input[type="password"] {
+    padding: 12px 15px; /* Comfortable padding */
+    border-radius: 8px; /* Rounded corners */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Subtle border */
+    background-color: rgba(44, 62, 80, 0.4); /* Semi-transparent background */
+    color: #ecf0f1; /* Text color */
+    font-size: 16px; /* Legible font size */
+    outline: none; /* Remove default focus outline */
+    width: 90%; /* Make it responsive */
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.2); /* Inset shadow for depth */
+    transition: all 0.3s ease; /* Smooth interactions */
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+    border: 1px solid rgba(255, 255, 255, 0.6); /* Highlight border on focus */
+    background-color: rgba(44, 62, 80, 0.6); /* Slightly brighter background on focus */
+}
+
+input[type="email"]:hover,
+input[type="password"]:hover {
+    background-color: rgba(44, 62, 80, 0.5); /* Slightly dimmer background on hover */
+}

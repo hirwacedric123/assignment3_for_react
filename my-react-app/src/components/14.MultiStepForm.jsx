@@ -15,7 +15,6 @@ function MultiStepForm() {
             <h2>14. Multi-Step Form</h2>
             {step === 1 && (
                 <div>
-                    <label>Name:</label>
                     <input 
                         type="text" 
                         name="name" 
@@ -31,7 +30,6 @@ function MultiStepForm() {
             )}
             {step === 2 && (
                 <div>
-                    <label>Address:</label>
                     <input 
                         type="text" 
                         name="address" 
@@ -50,7 +48,6 @@ function MultiStepForm() {
             )}
             {step === 3 && (
                 <div>
-                    <label>Payment Info:</label>
                     <input 
                         type="text" 
                         name="payment" 

@@ -24,22 +24,24 @@ function FormWithValidation() {
         <div className="component-card">
             <h2>13. Form with Validation</h2>
             <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
-                <input 
-                    type="email" 
-                    placeholder="Email" 
-                    value={email} 
-                    onChange={(e) => setEmail(e.target.value)} 
-                    style={{ padding: '10px', borderRadius: '5px' }}
-                    required
-                />
-                <input 
-                    type="password" 
-                    placeholder="Password" 
-                    value={password} 
-                    required
-                    onChange={(e) => setPassword(e.target.value)} 
-                    style={{ padding: '10px', borderRadius: '5px' }}
-                />
+            <input 
+                type="email" 
+                placeholder="Email" 
+                value={email} 
+                onChange={(e) => setEmail(e.target.value)} 
+                required 
+                className="input-field" 
+            />
+
+            <input 
+                type="password" 
+                placeholder="Password" 
+                value={password} 
+                onChange={(e) => setPassword(e.target.value)} 
+                required 
+                className="input-field" 
+            />
+
                 {error && <p style={{ color: 'red' }}>{error}</p>}
                 <button 
                     type="submit" 
