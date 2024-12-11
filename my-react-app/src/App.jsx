@@ -27,7 +27,7 @@ import CounterWithMemoList from "./components/22.CounterWithMemoList";
 import HeavyCalcWithMemo from "./components/23.HeavyCalcWithMemo";
 import TodoAppWithMemo from "./components/24.TodoAppWithMemo";
 import LiveTimeUpdates from "./components/25.LiveTimeUpdates";
-import LecturerRegistrationForm from './components/LecturerRegistrationForm';
+import LecturerRegistrationForm from './components/26.LecturerRegistrationForm';
 import StudentRegistrationForm from './components/StudentRegistrationForm';
 import DriverRegistrationForm from './components/DriverRegistrationForm';
 import BookRegistrationForm from './components/BookRegistrationForm';
