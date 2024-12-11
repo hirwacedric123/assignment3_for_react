@@ -18,10 +18,10 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/16.Navbar';
 import AboutPage from './pages/17.AboutPage';
 import ContactPage from './pages/18.ContactPage';
-import ProductPage from './pages/ProductPage';
-import BlogPage from './pages/BlogPage';
-import BlogPostPage from './pages/BlogPostPage';
-import NotFoundPage from './pages/NotFoundPage';
+import ProductPage from './pages/19.ProductPage';
+import BlogPage from './pages/20.BlogPage';
+import BlogPostPage from './pages/20.BlogPostPage';
+import NotFoundPage from './pages/20.NotFoundPage';
 import ParentWithMemo from "./components/21.ParentWithMemo";
 import CounterWithMemoList from "./components/22.CounterWithMemoList";
 import HeavyCalcWithMemo from "./components/23.HeavyCalcWithMemo";
@@ -87,7 +87,7 @@ function App() {
                                     <BookRegistrationForm />
                                     <ModuleRegistrationForm />
                                 </div>
-                                <div style={{ textAlign: "center", padding: "20px" }}>
+                                <div style={{ textAlign: "center", padding: "40px" }}>
 
                                 </div>
                             </div>
