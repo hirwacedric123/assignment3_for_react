@@ -3,7 +3,7 @@ import WelcomeMessage from './components/1.WelcomeMessage';
 import CurrentDate from './components/2.currentDate';
 import HobbiesList from './components/3.HobbiesList';
 import CustomButton from './components/4.CustomButton';
-import ProfileCard from './components/ProfileCard';
+import ProfileCard from './components/5.ProfileCard';
 import ToggleButton from './components/ToggleButton';
 import Counter from './components/Counter';
 import HoverColorChange from './components/HoverColorChange';
