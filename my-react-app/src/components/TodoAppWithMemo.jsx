@@ -28,6 +28,7 @@ function TodoAppWithMemo() {
                 value={input}
                 onChange={(e) => setInput(e.target.value)}
                 placeholder="Add a todo"
+                required
                 style={{
                     padding: '10px',
                     borderRadius: '5px',
