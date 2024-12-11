@@ -14,9 +14,9 @@ function CheckboxForm() {
     return (
         <div className="component-card">
             <h2>15. Checkbox Form</h2>
-            <div>
+            <div style={{display:"flex", flexDirection:"column", fontSize:"18px", justifyContent:"space-between"}}>
                 <label>
-                    <input type="checkbox" value="Option 1" onChange={handleCheckboxChange} /> Option 1
+                    <input   type="checkbox" value="Option 1" onChange={handleCheckboxChange} /> Option 1
                 </label>
                 <label>
                     <input type="checkbox" value="Option 2" onChange={handleCheckboxChange} /> Option 2
