@@ -15,7 +15,7 @@ function HeavyCalcWithMemo() {
         <div className="component-card">
             <h2>23. Heavy Calculation</h2>
             <p>Count: {count}</p>
-            <button onClick={() => setCount(count + 1)}>Increment Count</button>
+            <button style={{ padding: '10px', backgroundColor: '#3498db', color: '#fff', border: 'none', borderRadius: '5px' }} onClick={() => setCount(count + 1)}>Increment Count</button>
             <HeavyCalculation num={5} />
         </div>
     );

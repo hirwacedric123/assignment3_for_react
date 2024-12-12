@@ -32,7 +32,7 @@ function TodoAppWithMemo() {
                 style={{ padding: '10px', borderRadius: '5px' }}
                 required
             />
-            <button onClick={addTodo}>Add Todo</button>
+            <button style={{ padding: '10px', backgroundColor: '#3498db', color: '#fff', border: 'none', borderRadius: '5px' }} onClick={addTodo}>Add Todo</button>
             <TodoList todos={todos} />
 
             </form>
