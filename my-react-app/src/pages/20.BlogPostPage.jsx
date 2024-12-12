@@ -7,25 +7,32 @@ function BlogPostPage() {
     const containerStyle = {
         fontFamily: 'Arial, sans-serif',
         margin: '20px auto',
-        padding: '20px',
-        border: '1px solid #ddd',
-        borderRadius: '10px',
-        boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
-        maxWidth: '800px',
-        backgroundColor: '#f9f9f9',
+        padding: '30px',
+        borderRadius: '12px',
+        maxWidth: '900px',
+        boxShadow: '0 10px 20px rgba(0, 0, 0, 0.2), inset 0 2px 4px rgba(255, 255, 255, 0.1)',
+        backgroundColor: 'rgba(52, 73, 94, 0.8)',
+        backdropFilter: 'blur(10px)',
+        color: '#ecf0f1',
     };
 
     const headingStyle = {
-        fontSize: '2em',
-        color: '#333',
+        fontSize: '2.5em',
+        color: '#1abc9c',
         textAlign: 'center',
         marginBottom: '20px',
     };
 
     const contentStyle = {
-        color: '#555',
-        lineHeight: '1.6',
-        fontSize: '1.1em',
+        color: '#ecf0f1',
+        lineHeight: '1.8',
+        fontSize: '1.2em',
+        textAlign: 'justify',
+    };
+
+    const highlightStyle = {
+        color: '#1abc9c',
+        fontWeight: 'bold',
     };
 
     const codingStory = `Once upon a time, in a land full of bugs and infinite loops, a young developer named Alex decided to write their first program. 
@@ -36,10 +43,10 @@ function BlogPostPage() {
 
     return (
         <div style={containerStyle}>
-            <h2 style={headingStyle}>Blog Post {postId}</h2>
+            <h2 style={headingStyle}>Blog Post <span style={highlightStyle}>#{postId}</span></h2>
             <div style={contentStyle}>
                 <p>
-                    This is the detailed content of Blog Post {postId}. Here’s a fun coding story to brighten your day:
+                    This is the detailed content of Blog Post <span style={highlightStyle}>{postId}</span>. Here’s a fun coding story to brighten your day:
                 </p>
                 <p>{codingStory}</p>
             </div>

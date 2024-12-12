@@ -6,46 +6,50 @@ function ProductPage() {
 
     const containerStyle = {
         fontFamily: 'Arial, sans-serif',
-        margin: '20px',
+        margin: '20px auto',
         padding: '20px',
-        border: '1px solid #ddd',
-        borderRadius: '10px',
-        boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
-        backgroundColor: '#f9f9f9',
+        maxWidth: '800px',
+        borderRadius: '12px',
+        boxShadow: '0 10px 20px rgba(0, 0, 0, 0.2), inset 0 2px 4px rgba(255, 255, 255, 0.1)',
+        backgroundColor: 'rgba(44, 62, 80, 0.6)',
+        backdropFilter: 'blur(10px)',
+        color: '#ecf0f1',
         textAlign: 'center',
     };
 
     const productCardStyle = {
         margin: '20px auto',
-        padding: '15px',
-        border: '1px solid #ccc',
-        borderRadius: '10px',
-        width: '60%',
-        backgroundColor: '#fff',
-        boxShadow: '0 2px 4px rgba(0, 0, 0, 0.1)',
+        padding: '20px',
+        borderRadius: '12px',
+        backgroundColor: 'rgba(255, 255, 255, 0.1)',
+        boxShadow: '0 6px 12px rgba(0, 0, 0, 0.15), inset 0 2px 4px rgba(255, 255, 255, 0.1)',
+        color: '#ecf0f1',
+        transition: 'transform 0.3s ease, box-shadow 0.3s ease',
     };
 
     const productImageStyle = {
         width: '100%',
-        height: '200px',
+        height: '250px',
         objectFit: 'cover',
-        borderRadius: '10px',
+        borderRadius: '12px',
         marginBottom: '15px',
+        border: '2px solid #ecf0f1',
     };
 
     const productNameStyle = {
-        fontSize: '1.5em',
+        fontSize: '2em',
         fontWeight: 'bold',
-        color: '#333',
-        marginBottom: '10px',
+        color: '#ecf0f1',
+        marginBottom: '15px',
     };
 
     const productDetailsStyle = {
-        color: '#555',
-        lineHeight: '1.6',
+        color: '#bdc3c7',
+        fontSize: '1.2em',
+        lineHeight: '1.8',
+        textAlign: 'left',
     };
 
-    // Mock product data
     const mockProducts = {
         '1': {
             name: 'Smartphone X Pro',
@@ -67,7 +71,6 @@ function ProductPage() {
         },
     };
 
-    // Get product details based on productId
     const product = mockProducts[productId] || {
         name: 'Unknown Product',
         description: 'No details available for this product.',
@@ -77,7 +80,7 @@ function ProductPage() {
 
     return (
         <div style={containerStyle}>
-            <h1>Product Details</h1>
+            <h1 style={{ fontSize: '2.5em', marginBottom: '20px' }}>Product Details</h1>
             <div style={productCardStyle}>
                 <img src={product.image} alt={product.name} style={productImageStyle} />
                 <div style={productNameStyle}>{product.name}</div>
