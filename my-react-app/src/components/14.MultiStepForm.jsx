@@ -15,17 +15,21 @@ function MultiStepForm() {
             <h2>14. Multi-Step Form</h2>
             {step === 1 && (
                 <div>
-                    <input 
-                        type="text" 
-                        name="name" 
-                        value={formData.name} 
-                        onChange={handleChange} 
-                        placeholder="Enter your name" 
-                        style={{ padding: '10px', borderRadius: '5px', width: '100%' }}
-                    />
-                    <button onClick={nextStep} style={{ marginTop: '10px', padding: '10px', backgroundColor: '#3498db', color: '#fff', border: 'none', borderRadius: '5px' }}>
-                        Next
-                    </button>
+                    <form action="">
+                        <input 
+                            type="text" 
+                            name="name" 
+                            value={formData.name} 
+                            onChange={handleChange} 
+                            placeholder="Enter your name" 
+                            style={{ padding: '10px', borderRadius: '5px', width: '100%' }}
+                            required
+                        />
+                        <button onClick={nextStep} style={{ marginTop: '10px', padding: '10px', backgroundColor: '#3498db', color: '#fff', border: 'none', borderRadius: '5px' }}>
+                            Next
+                        </button>
+                    </form>
+
                 </div>
             )}
             {step === 2 && (

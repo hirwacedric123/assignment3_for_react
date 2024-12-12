@@ -21,13 +21,6 @@ function FormSubmission() {
                         value={input}
                         onChange={(e) => setInput(e.target.value)}
                         placeholder="Enter your message"
-                        style={{
-                            padding: '10px',
-                            borderRadius: '5px',
-                            border: '1px solid #34495e',
-                            backgroundColor: '#2c3e50',
-                            color: '#ecf0f1'
-                        }}
                         required
                     />
                     <button 
