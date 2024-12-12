@@ -16,13 +16,19 @@ function CheckboxForm() {
             <h2>15. Checkbox Form</h2>
             <div style={{display:"flex", flexDirection:"column", fontSize:"18px", justifyContent:"space-between"}}>
                 <label>
-                    <input   type="checkbox" value="Option 1" onChange={handleCheckboxChange} /> Option 1
+                    <input   type="checkbox" value="Chair" onChange={handleCheckboxChange} /> Chair
                 </label>
                 <label>
-                    <input type="checkbox" value="Option 2" onChange={handleCheckboxChange} /> Option 2
+                    <input type="checkbox" value="Table" onChange={handleCheckboxChange} /> Table
                 </label>
                 <label>
-                    <input type="checkbox" value="Option 3" onChange={handleCheckboxChange} /> Option 3
+                    <input type="checkbox" value="Spoon" onChange={handleCheckboxChange} /> Spoon
+                </label>
+                <label>
+                    <input type="checkbox" value="Plate" onChange={handleCheckboxChange} /> Plate
+                </label>
+                <label>
+                    <input type="checkbox" value="Fridge" onChange={handleCheckboxChange} /> fridge
                 </label>
             </div>
             <p style={{ marginTop: '10px', color: '#ecf0f1' }}>
