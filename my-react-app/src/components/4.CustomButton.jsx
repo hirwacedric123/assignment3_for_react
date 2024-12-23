@@ -13,7 +13,7 @@ function CustomButton() {
 
     return (
         <div className="component-card">
-            <h2>4. Custom Button</h2>
+            <h2>4. Custom Buttons</h2>
             <div className="content">
                 <button 
                     style={{
