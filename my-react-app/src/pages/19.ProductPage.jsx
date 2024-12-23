@@ -86,7 +86,7 @@ function ProductPage() {
                 <div style={productNameStyle}>{product.name}</div>
                 <div style={productDetailsStyle}>
                     <p><strong>Description:</strong> {product.description}</p>
-                    <p><strong>Price:</strong> {product.price}</p>
+                    <p><strong>Pricing:</strong> {product.price}</p>
                     <p><strong>Product ID:</strong> {productId}</p>
                 </div>
             </div>
