@@ -4,7 +4,7 @@ This is a React assignment project that demonstrates various features such as ro
 
 ## Features
 
-- **Multiple React Components**: Includes 20 components, each demonstrating a different functionality, such as counters, forms, and interactive UI elements.
+- **Multiple React Components**: Includes 30 components, each demonstrating a different functionality, such as counters, forms, and interactive UI elements.
 - **Routing**: Uses React Router to handle different pages such as Home, About, Contact, Product, Blog, and Not Found pages.
 - **Dynamic Content**: Displays content dynamically on the Product and Blog pages based on URL parameters.
 - **Form Handling**: Demonstrates several types of forms, including multi-step forms, validation forms, and registration forms.
