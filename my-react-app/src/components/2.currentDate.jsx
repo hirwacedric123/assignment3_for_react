@@ -2,12 +2,7 @@ import React from 'react';
 import './styles/ComponentCard.css';
 
 function CurrentDate() {
-    const currentDate = new Date().toLocaleDateString('en-US', {
-        weekday: 'long',
-        year: 'numeric',
-        month: 'long',
-        day: 'numeric'
-    });
+    const currentDate = new Date().toLocaleDateString();
 
     return (
         <div className="component-card">
